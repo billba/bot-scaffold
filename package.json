@@ -1,0 +1,28 @@
+{
+  "name": "bot-scaffold",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "HAL LIVES",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/billba/bot-scaffold"
+  },
+  "main": "bot.js",
+  "scripts": {
+    "typings": "typings install",
+    "build": "tsc",
+    "start": "node bot.js",
+    "watch": "tsc -w",
+    "nodewatch": "nodemon bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/dotenv": "^2.0.18",
+    "@types/restify": "^2.0.33",
+    "dotenv": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "typescript": "^2.0.3"
+  }
+}
